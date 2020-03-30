@@ -13,15 +13,13 @@ CLOVERX64.efi替换EFI/CLOVER文件夹中的同名文件。）
 二、出现黑屏或者启动时候需要拔电池，拔掉所有外设等问题：  
   BIOS设置：
   - 恢复BIOS默认设置
-  - AHCI mode 选择 SATA(or ATA)
+  - AHCI mode 选择 SATA(AHCI)
   - 关闭 VT for direct I/O
   - 关闭 Advanced Battery Charging
   - 关闭 Secure boot
   - 关闭 SupportAssist System Resolution
   - 关闭 Firmware TPM
-  
-  保存F10后，按F12，然后在“其他选项”注意“外围设备设置”（OPROM Setting），如果开机按F12此关键词为灰色，则说明设置成功  
-  （我的一直没有成功，最后启动方式改为LEGAY）  
+    
 三、修复爆音后重启禁行标志：  
   此处需要特别注意，我到现在没总结出来原因，可能为修复失败、重建缓存失败、没有解锁权限。  
  
