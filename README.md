@@ -5,8 +5,8 @@
   2.外接显示屏需要开机再插，否则出现黑屏。  
   3.WiFi无法使用，这个通病，需要更换无线网卡。  
 整个安装过程参考江南小虫虫的教程：https://github.com/fengwenhua/dell-7559-hackintosh    
-CSDN地址：https://blog.csdn.net/A807296772/article/details/102488864    
-         https://www.tonymacx86.com/threads/guide-dell-inspiron-15-7559-skylake.260876/  
+CSDN地址：https://blog.csdn.net/A807296772/article/details/102488864  
+tonymacx86 https://www.tonymacx86.com/threads/guide-dell-inspiron-15-7559-skylake.260876/  
 此处记录个人需要注意的（也是我走过的很多弯路）  
 一、每次升级理论上更新最新CLOVER然后直接更新即可，现在为macOS10.15.4,试用CLOVER为5107（BOOTX64.efi替换EFI/BOOT文件夹中的同名文件。
 CLOVERX64.efi替换EFI/CLOVER文件夹中的同名文件。）  
